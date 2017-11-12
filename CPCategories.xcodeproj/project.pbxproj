@@ -13,6 +13,7 @@
 		4ABD84BA1FB8522600297DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABD84B91FB8522600297DB7 /* Assets.xcassets */; };
 		4ABD84BD1FB8522600297DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABD84BB1FB8522600297DB7 /* LaunchScreen.storyboard */; };
 		4ABD84C01FB8522600297DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD84BF1FB8522600297DB7 /* main.m */; };
+		4ABD84CB1FB8527700297DB7 /* NSObject+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD84CA1FB8527700297DB7 /* NSObject+Navigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4ABD84BC1FB8522600297DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ABD84BE1FB8522600297DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ABD84BF1FB8522600297DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ABD84C91FB8527700297DB7 /* NSObject+Navigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Navigation.h"; sourceTree = "<group>"; };
+		4ABD84CA1FB8527700297DB7 /* NSObject+Navigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Navigation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4ABD84AF1FB8522600297DB7 /* CPCategories */ = {
 			isa = PBXGroup;
 			children = (
+				4ABD84C61FB8526700297DB7 /* CPCategories */,
 				4ABD84B01FB8522600297DB7 /* AppDelegate.h */,
 				4ABD84B11FB8522600297DB7 /* AppDelegate.m */,
 				4ABD84B31FB8522600297DB7 /* ViewController.h */,
@@ -69,6 +73,31 @@
 				4ABD84BF1FB8522600297DB7 /* main.m */,
 			);
 			path = CPCategories;
+			sourceTree = "<group>";
+		};
+		4ABD84C61FB8526700297DB7 /* CPCategories */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD84C71FB8526700297DB7 /* NSObject */,
+			);
+			path = CPCategories;
+			sourceTree = "<group>";
+		};
+		4ABD84C71FB8526700297DB7 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD84C81FB8526700297DB7 /* Navigation */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		4ABD84C81FB8526700297DB7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD84C91FB8527700297DB7 /* NSObject+Navigation.h */,
+				4ABD84CA1FB8527700297DB7 /* NSObject+Navigation.m */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +174,7 @@
 				4ABD84B51FB8522600297DB7 /* ViewController.m in Sources */,
 				4ABD84C01FB8522600297DB7 /* main.m in Sources */,
 				4ABD84B21FB8522600297DB7 /* AppDelegate.m in Sources */,
+				4ABD84CB1FB8527700297DB7 /* NSObject+Navigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
